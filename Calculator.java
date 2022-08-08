@@ -1,3 +1,5 @@
+package calculater;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -112,14 +114,10 @@ class SimpleCalculator extends JFrame implements Runnable, ActionListener {
 }
 
 public class Calculator {
-
-	public static void main(String[] args) {
+	public static void main(String[] jay) {
 		SimpleCalculator gr = new SimpleCalculator("Calculator");
 		gr.setVisible(true);
 		gr.setLocation(800, 100);
 		gr.setSize(700, 500);
-
-
 	}
-
 }

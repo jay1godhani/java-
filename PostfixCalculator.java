@@ -1,6 +1,9 @@
-import java.util.Stack;
-public class PostfixCalculator {
+package calculater;
 
+import java.util.Stack;
+
+public class PostfixCalculator
+{
 	static double evaluatePostfix(String exp)
     {
         Stack<Double> stack=new Stack<>();
@@ -46,4 +49,3 @@ public class PostfixCalculator {
         System.out.println("postfix evaluation: "+evaluatePostfix(exp));
     }
 }
-

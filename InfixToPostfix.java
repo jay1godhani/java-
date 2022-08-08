@@ -1,9 +1,10 @@
+package calculater;
 
 
 import java.util.Stack;
 
-public class InfixToPostfix {
-
+class InfixToPostfix
+{
     static int Prec(char ch)
     {
         switch (ch)
@@ -65,5 +66,3 @@ public class InfixToPostfix {
         return result;
     }
 }
-
-
